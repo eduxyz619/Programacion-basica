@@ -1,21 +1,18 @@
-# Programación Básica.
+# ProgramaciÃ³n BÃ¡sica.
 
 ----
 ## Tutorial de Python.
 
-###Anaconda (distribución de Python).
+###Anaconda (distribuciÃ³n de Python).
 
-####¿Qué es Anaconda?
+####Â¿QuÃ© es Anaconda?
 
-Anaconda es un distribución libre y abierta de los lenguajes Python, utilizada en ciencia de datos, y aprendizaje automático. Esto incluye procesamiento de grandes volúmenes de información, análisis predictivo y cómputos científicos. Está orientado a simplificar el despliegue y administración de los paquetes de software.
+Anaconda es un distribuciÃ³n libre y abierta de los lenguajes Python, utilizada en ciencia de datos, y aprendizaje automÃ¡tico. Esto incluye procesamiento de grandes volÃºmenes de informaciÃ³n, anÃ¡lisis predictivo y cÃ³mputos cientÃ­ficos. EstÃ¡ orientado a simplificar el despliegue y administraciÃ³n de los paquetes de software.
 
-Las diferentes versiones de los paquetes se administran mediante el sistema de gestión de paquetes conda, el cual lo hace bastante sencillo de instalar, correr, y actualizar software de ciencia de datos y aprendizaje automático como ser Scikit-team, TensorFlow y SciPy.
 
-La distribución Anaconda es utilizada por 6 millones de usuarios e incluye más de 250 paquetes de ciencia de datos válidos para Windows, Linux y MacOS.
+####InstalaciÃ³n de Anaconda.
 
-####Instalación de Anaconda.
-
-Aunque instalar Python en una computadora es bastante sencillo, vamos a usar una distribución de Python gratuita llamada Anaconda. Aunque está disponible sólo en inglés, esta distribución incluye multitud de utilidades que nos facilitarán el trabajo y es ideal para empezar. Para instalarla, sólo tienes que descargar la versión de Anaconda para tu sistema operativo desde su página web.
+Aunque instalar Python en una computadora es bastante sencillo, vamos a usar una distribuciÃ³n de Python gratuita llamada Anaconda. Aunque estÃ¡ disponible sÃ³lo en inglÃ©s, esta distribuciÃ³n incluye multitud de utilidades que nos facilitarÃ¡n el trabajo y es ideal para empezar. Para instalarla, sÃ³lo tienes que descargar la versiÃ³n de Anaconda para tu sistema operativo desde su pÃ¡gina web.
 
 Una vez instalado, sigue los siguientas pasos:
 
@@ -27,29 +24,29 @@ Una vez instalado, sigue los siguientas pasos:
 
 TIPOS DE DATOS BASICOS...
 
-En python los tipos de datos básicos se dividen en, números, como pueden ser 3 (entero ó integer) 1.75, (punto flotante ó float) 7+5j (complejos ó complex).
+En python los tipos de datos bÃ¡sicos se dividen en, nÃºmeros, como pueden ser 3 (entero Ã³ integer) 1.75, (punto flotante Ã³ float) 7+5j (complejos Ã³ complex).
 
-Para poder conocer el tipo de dato de una variable susaremos la instrucción "type()".
+Para poder conocer el tipo de dato de una variable susaremos la instrucciÃ³n "type()".
 
-Otro tipo de dato basico en PYTHON son las cadenas de texto, por ejemplo, "Hola Mundo" (cadena de texto o string ó 'Hola Mundo' ó "Jenny's dog").
+Otro tipo de dato basico en PYTHON son las cadenas de texto, por ejemplo, "Hola Mundo" (cadena de texto o string Ã³ 'Hola Mundo' Ã³ "Jenny's dog").
 
 Como se puede notar a diferencia de muchos otros lenguajes en PYTHON no se declara el tipo de variable al crearla.
 
-Para resumir en PYTHON se puede reprecentar números enteros, reales, y complejos. Los números enteros son aquellos números positívos o negatívos que no tienen desimales. En la mayor parte de las maquinas las variables enteras ("int") pueden almacrnar números de -2^31 a 2^31. En plataformas de 64 bites el rango es de -2^63 a 2^63.
+Para resumir en PYTHON se puede reprecentar nÃºmeros enteros, reales, y complejos. Los nÃºmeros enteros son aquellos nÃºmeros positÃ­vos o negatÃ­vos que no tienen desimales. En la mayor parte de las maquinas las variables enteras ("int") pueden almacrnar nÃºmeros de -2^31 a 2^31. En plataformas de 64 bites el rango es de -2^63 a 2^63.
 
-Los números flotantes son los que tienen decimales. En PYTHON se expresan mediante el tipo "float" se puede representar números de -2^64 a 2^64.
+Los nÃºmeros flotantes son los que tienen decimales. En PYTHON se expresan mediante el tipo "float" se puede representar nÃºmeros de -2^64 a 2^64.
 
-Los números complejos son aquellos que tienen una parte imaginaria. Para definir una variable compleja se utiliza en termino "complex".
+Los nÃºmeros complejos son aquellos que tienen una parte imaginaria. Para definir una variable compleja se utiliza en termino "complex".
 
 Operadores:
 
 		suma                    r=3+2
 		resta	                r=4-7
-            (guión) negación        r=-7
-		multiplicación		r=2*6
+            (guiÃ³n) negaciÃ³n        r=-7
+		multiplicaciÃ³n		r=2*6
 		exponente		r=2**6
-		división		r=3.5/2
-		división entera		r=3.5//2
+		divisiÃ³n		r=3.5/2
+		divisiÃ³n entera		r=3.5//2
 		modulo (residuo)	r=7%2
 
 Un ejemplo de esto puede ser el siguiente:
@@ -73,14 +70,14 @@ Un ejemplo de esto puede ser el siguiente:
     print('El logaritmo es ' ,math.log10(a))
 
 ###Ciclo For.
-En pyhton "for" se utiliza como una forma genérica de interés sobre una secuencia, es decir, recorrer una secuencia.
+En pyhton "for" se utiliza como una forma genÃ©rica de interÃ©s sobre una secuencia, es decir, recorrer una secuencia.
 
             variable = secuencia  
             secuencia = ["uno", "dos", "tres"]  //estos son elementos
             for elemento in secuencia:
             ____print(elemento)                //4 esopacios 
 
-Y los resultados serán:
+Y los resultados serÃ¡n:
 
            uno
            dos
@@ -98,7 +95,7 @@ Un ejemplo del ciclo "for" puede ser el siguiente:
         farenheit = (1.8*celcius)+32
         print(celcius,'gC','|',farenheit,'gF')
 
-También se puede hacer una lista de descuentos, como se muestra en el siguiente caso:
+TambiÃ©n se puede hacer una lista de descuentos, como se muestra en el siguiente caso:
 
     for precio in range(4,201,5):
         precio=(precio+0.95)
@@ -123,14 +120,14 @@ O incluso puedes hacer una tabla de multiplicar.
         print(x,a,b,c,d,e,f,g,h,i,j)
 
 ###Modulo Turlte 
-Hay muchos módulos en python que proveen características poderosas que podemos usar en nuestros propios programas. Algunos de estos pueden enviar correos electrónicos y algunos de estos pueden extraer información de paginas de Internet. Para el manejo de gráficos usaremos un modulo que permite crear figuras y patrones. El modulo que se usara permiten desarrollar nuestro pensamiento computacional.
+Hay muchos mÃ³dulos en python que proveen caracterÃ­sticas poderosas que podemos usar en nuestros propios programas. Algunos de estos pueden enviar correos electrÃ³nicos y algunos de estos pueden extraer informaciÃ³n de paginas de Internet. Para el manejo de grÃ¡ficos usaremos un modulo que permite crear figuras y patrones. El modulo que se usara permiten desarrollar nuestro pensamiento computacional.
 
       
     import turtle
     ventana=turtle.Screen()	//Crea una ventana en blanco			
     alex=turtle.Turtle()	//Crear un objeto de la clase turtle lo puedo llamar como yo quiera se llama "alex" y puede tener atributos
     alex.forward(50)	//Avanza 50 unidades
-    alex.left(90)		//gira a la izquierda 90°
+    alex.left(90)		//gira a la izquierda 90Â°
     alex.forward(30)	//Avanza 30 unidades
     ventana.mainloop()	//Hasta que el usuario cierra la ventana el programa termina
 
@@ -199,7 +196,7 @@ Aparte de poder figuras con el mismo codigo, y escojer el color de fondo o el co
     kar.forward(100)
     ventana.mainloop() 
  
-Puedes hacer también puedes hacer círculos con el Modulo Turtle, como este: 
+Puedes hacer tambiÃ©n puedes hacer cÃ­rculos con el Modulo Turtle, como este: 
 
     import turtle
     ventana=turtle.Screen()
@@ -225,7 +222,7 @@ Puedes hacer también puedes hacer círculos con el Modulo Turtle, como este:
     mike.circle(100)
     ventana.mainloop()
 
-Incluso, con el Modulo Turtle, puedes poner imagenes. Pero solo imagenes que tengan extención ".gif", como se muestra en el siguiente caso:
+Incluso, con el Modulo Turtle, puedes poner imagenes. Pero solo imagenes que tengan extenciÃ³n ".gif", como se muestra en el siguiente caso:
 (Nota: Tienes que guardar la imagen en la misna carpeta, donde estas guardando el programa)
 
     import turtle
@@ -271,26 +268,26 @@ Y si quieres, incluso puedes hacer que la imagien rebote en el orde de la ventan
         camino.goto(x+dx,y)
     window.mainloop()
 
-###Funciónes 
+###FunciÃ³nes 
 
-Una función es un fragmento de código con un nombre asociado que realiza una serie de tareas y devuelve un valor. A demás de ayudarnos a programar y depurar dividiendo el programa en partes, las funciones también permiten reutilizar código.
+Una funciÃ³n es un fragmento de cÃ³digo con un nombre asociado que realiza una serie de tareas y devuelve un valor. A demÃ¡s de ayudarnos a programar y depurar dividiendo el programa en partes, las funciones tambiÃ©n permiten reutilizar cÃ³digo.
      
 	##definicion de una funcion
 	def ladra():
 	    print('guau, guau')
 	##cuerpo principal del programa
 	ladra()
-Las Funciones ayudan al programador a dividir un problema en pequeñas piezas que pueden ser re usadas. También ayudan al programador a concentrarse en una pequeña parte del programa a la vez. Como resultado el escribir funciones es una parte importante del desarrollo del sofware. 
+Las Funciones ayudan al programador a dividir un problema en pequeÃ±as piezas que pueden ser re usadas. TambiÃ©n ayudan al programador a concentrarse en una pequeÃ±a parte del programa a la vez. Como resultado el escribir funciones es una parte importante del desarrollo del sofware. 
 
 En nuestro caso debemos aprender a:
 
-	1. Definir una función para usarla después.
-	2. Pasar uno o más valores a una función.
-	3. Desarrollar un cálculo complejo en una función.
-	4. Regresar uno o más resultados a una función.
-	5. Llamar a una función que previamente hayamos definido.
+	1. Definir una funciÃ³n para usarla despuÃ©s.
+	2. Pasar uno o mÃ¡s valores a una funciÃ³n.
+	3. Desarrollar un cÃ¡lculo complejo en una funciÃ³n.
+	4. Regresar uno o mÃ¡s resultados a una funciÃ³n.
+	5. Llamar a una funciÃ³n que previamente hayamos definido.
 
-Puede también colocarce el Modulo Turtle con algunos de los ciclos, como se muestra este, con Ciclo For:
+Puede tambiÃ©n colocarce el Modulo Turtle con algunos de los ciclos, como se muestra este, con Ciclo For:
 
     import turtle
     def dibujar_cuadro(tur, d):
@@ -306,7 +303,7 @@ Puede también colocarce el Modulo Turtle con algunos de los ciclos, como se mues
     dibujar_cuadro(dona, 200)
     ventana.mainloop()
 
-O también se pueden cambiar el color de las lineas.
+O tambiÃ©n se pueden cambiar el color de las lineas.
 
     import turtle
     def dibujar_cuadro(tur, d):
@@ -323,7 +320,7 @@ O también se pueden cambiar el color de las lineas.
     dibujar_cuadro(dona, 200)
     ventana.mainloop()
 
-Incluso, con el mismo ciclo, puedes cambiar el angulo y el tamaño de las figuras.
+Incluso, con el mismo ciclo, puedes cambiar el angulo y el tamaÃ±o de las figuras.
 
     import turtle
     def dibujar_multiples_cuadro(tur, d):
@@ -344,7 +341,7 @@ Incluso, con el mismo ciclo, puedes cambiar el angulo y el tamaño de las figuras
         alex.right(18)
     ventana.mainloop()
 
-O no solo que vallan creciendo, sino, que se queden en un mismo tamaño.
+O no solo que vallan creciendo, sino, que se queden en un mismo tamaÃ±o.
 
     import turtle
 
@@ -405,7 +402,7 @@ O hacer suceciones de un cuadrado, como se muestra en el siguiente programa:
         omar.pendown()
         p=p+30
 
-Y no solo que vallan hacia un lado, sino que, también pueden hacerce cuadrados más grandes.
+Y no solo que vallan hacia un lado, sino que, tambiÃ©n pueden hacerce cuadrados mÃ¡s grandes.
 
     import turtle
 
@@ -435,7 +432,7 @@ Y no solo que vallan hacia un lado, sino que, también pueden hacerce cuadrados m
 
     ventana.mainloop()
 
-ñññññññññññññ
+Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±
 
     def cuadrado(tur, d):
         for i in  range(200):   
@@ -456,7 +453,7 @@ Y no solo que vallan hacia un lado, sino que, también pueden hacerce cuadrados m
 
     ventana.mainloop()
 
-ñññññññññññññññññ
+Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±Ã±
 
     import turtle
 
@@ -481,27 +478,27 @@ Y no solo que vallan hacia un lado, sino que, también pueden hacerce cuadrados m
 
     ventana.mainloop()
 
-###Programación Ambientada a Objetos.
+###ProgramaciÃ³n Ambientada a Objetos.
 
-Al principio del curso comentavamos que Python es un lenguaje multiparadigma en el que se podía trabajar con programación estructurada, como veniamos haciendo ahora o con programación orientada a objetos el cual es un paradigma de programación en el que los conceptos del mundo real relevantes para nuestro problema se modelan a travéz de clases y objetos, y en el que nuestro programa consiste en una serie de interacciones entre objetos.
+Al principio del curso comentavamos que Python es un lenguaje multiparadigma en el que se podÃ­a trabajar con programaciÃ³n estructurada, como veniamos haciendo ahora o con programaciÃ³n orientada a objetos el cual es un paradigma de programaciÃ³n en el que los conceptos del mundo real relevantes para nuestro problema se modelan a travÃ©z de clases y objetos, y en el que nuestro programa consiste en una serie de interacciones entre objetos.
 
 >OBJETOS:
 
->Un objetos es una entidad que agrupa un estado y una funcionalidad relacionada. El estado del objeto se define a través de variables llamadas atributos, mientras que la funcionalidad de modela a través de funciones a las que se les conoce con el nombre de MÉTODOS DEL OBJETOS.
+>Un objetos es una entidad que agrupa un estado y una funcionalidad relacionada. El estado del objeto se define a travÃ©s de variables llamadas atributos, mientras que la funcionalidad de modela a travÃ©s de funciones a las que se les conoce con el nombre de MÃ‰TODOS DEL OBJETOS.
 
->**Diagrama UML sirve para definir un objeto y culales son su métodos y sus atributos**
+>**Diagrama UML sirve para definir un objeto y culales son su mÃ©todos y sus atributos**
 
->Un ejemplo de objeto podría ser un coche en el que tendriamos Atributos como: la marca, el numero de puertas, o el color.
+>Un ejemplo de objeto podrÃ­a ser un coche en el que tendriamos Atributos como: la marca, el numero de puertas, o el color.
 
->Y Métodos como: arrancar, parar.
+>Y MÃ©todos como: arrancar, parar.
 
->O bien cualquier otra combinación de Atributos y Métodos según lo que fuera relevante para nuestro programa.
+>O bien cualquier otra combinaciÃ³n de Atributos y MÃ©todos segÃºn lo que fuera relevante para nuestro programa.
 
 >CLASES:
 
->Una clase no es más que una plantilla genérica de la cual insancia los objetos; es la plantilla que define que Atributos y Métodos tendrán los objetos de esa clase.
+>Una clase no es mÃ¡s que una plantilla genÃ©rica de la cual insancia los objetos; es la plantilla que define que Atributos y MÃ©todos tendrÃ¡n los objetos de esa clase.
 
-En PYTHON las clases de definen Mediante la palabra clave "CLASS" seguido del nombre de la clase, seguido por dos puntos, y a continicación, inentado el cuerpo de la clase.
+En PYTHON las clases de definen Mediante la palabra clave "CLASS" seguido del nombre de la clase, seguido por dos puntos, y a continicaciÃ³n, inentado el cuerpo de la clase.
 
 Por ejemplo:
 
@@ -529,7 +526,7 @@ Por ejemplo:
     vocho.conducir()
     vocho.conducir() 
 
-Pero no solo puedes poner algo en común, como un carro, si no también puedes hacer que el programa detecte si es o no, una figura, como por ejemplo un triangulo.
+Pero no solo puedes poner algo en comÃºn, como un carro, si no tambiÃ©n puedes hacer que el programa detecte si es o no, una figura, como por ejemplo un triangulo.
 
     class Triangulo(object):
         def __init__(self,angulo1,angulo2,angulo3):
@@ -544,7 +541,7 @@ Pero no solo puedes poner algo en común, como un carro, si no también puedes hac
     miTriangulo=Triangulo(90,30,60)
     miTriangulo.ChecarAngulo()
 
-O incluso, puedes hacer que un programa continue una canción en texto.
+O incluso, puedes hacer que un programa continue una canciÃ³n en texto.
 
     class Cancion(object):
         def __init__(self,letra):
